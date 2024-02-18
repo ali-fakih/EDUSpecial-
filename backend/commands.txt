@@ -1,0 +1,91 @@
+npm init
+npm install express
+npm install mongoose
+npm install dotenv
+npm install bcryptjs
+npm install express-async-handler
+npm install express-validator
+npm install jsonwebtoken
+npm install joi
+npm install bcrypt
+npm install ejs
+npm install --save lodash
+npm install dayjs
+npm install stripe
+npm install nodemon
+npm install nodemailer
+npm install uuid
+npm install @stripe/stripe-js
+npm install cors
+npm install cookie-parser
+
+=========================================================================
+
+
+=========================================================================================
+<!-- For GitHub -->
+
+# Step 1: Configure Global User (mandatory)
+git config --global user.name "AliFakih"
+git config --global user.email "alif75760@gmail.com"
+
+# Step 2: Initialize NPM (if needed)
+npm init
+
+# Step 3: Add New File (mandatory)
+git add index.html  # to add any new file
+
+# Step 4: Add All Changes (mandatory)
+git add --all  # or git add .
+
+# Step 5: Check Status
+git status  # view info about changes
+
+# Step 6: Commit Changes
+git commit -m "name of every push or branch to know info about it!"
+
+# Step 7: Create a New Branch
+git branch newbranch  # create a new branch
+
+# Step 8: Switch to Master Branch
+git checkout master  # switch to the master branch
+
+# Step 9: Merge Branches
+git merge newbranch  # merge changes from newbranch to master
+
+# Step 10: Check Current Branch
+git branch  # view current branch
+
+# Step 11: Push Changes to GitHub (mandatory)
+git push origin master  # push changes to the master branch on GitHub
+
+# Step 12: (Optional) Rename Branch
+git branch -M master  # rename the branch to master (if needed)
+
+# Step 13: Add Remote Origin
+git remote add origin https://github.com/AliMallah-10/EduSpecial.git
+
+# Step 14: Push to GitHub
+git push -u origin master
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+<!-- PUll --!>
+# Step 1: Configure Global User (mandatory)
+git config --global user.name "AliFakih"
+git config --global user.email "alif75760@gmail.com"
+
+# Step 2: Initialize NPM (if needed)
+npm init
+
+# Step 3: Check Current Branch
+git branch  # view current branch
+
+# Step 4: Add Remote Origin (if not done previously)
+# Example URL: https://github.com/AliMallah-10/EduSpecial.git
+git remote add origin https://github.com/AliMallah-10/EduSpecial.git
+
+# Step 5: Pull Changes from GitHub (mandatory)
+# Use the remote "origin" and pull changes into the current branch (e.g., "master")
+git pull origin master  # replace "master" with your branch name if different
+
+"
